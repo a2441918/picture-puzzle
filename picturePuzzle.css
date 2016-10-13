@@ -1,0 +1,40 @@
+
+h1{
+	color:black;
+	text-align: center;
+}
+
+p{
+	color:black
+}
+
+body{
+    background-color: #E6E6FA;
+}
+
+.columns{
+    width: 654px;   
+}
+.columns0{
+    width: 954px;   
+}
+
+.column{   
+	display: inline;
+}
+
+.credits{
+	marquee-style: scroll;
+	marquee-direction: up;
+	text-align: center;
+	height: 700px;
+}
+
+.replay{
+	text-align: center;
+}
+
+.score{
+	text-align: center;
+	font-size:160%
+}

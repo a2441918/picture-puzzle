@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" content="HTML,COMP431,COMP531,JavaScript">
+	<meta name="author" content="Arun Manohar Manoharan">
+	<script src="picturePuzzle.js"></script>
+	<link rel = "stylesheet" href = "picturePuzzle.css"></link>
+	<title>Picture Puzzle Level 2</title>
+</head>
+
+<body onload = "startTimer2()">
+	<hr></hr>
+	<h1>Picture Puzzle Level 2</h1>
+	<hr></hr>
+	<b>Time Remaining: </b><input type = "text" readonly id = "timeRem2" value="60"></input>
+
+	<button type="button" value="Reset" onclick="reset2()"> Reset </button>
+	<button type="button" value="Hint" onclick="hint2()"> Hint </button>
+	<button type="button" value="level1" onclick="goToLevel1()"> Go to Level 1 </button>
+
+	<hr></hr>
+	
+	<div id="columns" class = "columns">
+	  <div id = "mustang1" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang15" src = "mustang\mustang(15).jpeg"  </img>
+	  </div>
+	  <div id = "mustang2" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang6" src = "mustang\mustang(6).jpeg"  </img>
+	  </div>
+	  <div id = "mustang3" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang2" src = "mustang\mustang(2).jpeg"  </img>
+	  </div>
+	  <div id = "mustang4" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang10" src = "mustang\mustang(10).jpeg"  </img>
+	  </div>	  
+	  <div id = "mustang5" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang5" src = "mustang\mustang(5).jpeg"  </img>
+	  </div>
+	  <div id = "mustang6" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang3" src = "mustang\mustang(3).jpeg"  </img>
+	  </div>
+		<div id = "mustang7" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang16" src = "mustang\mustang(16).jpeg"  </img>
+	  </div>
+	  <div id = "mustang8" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang8" src = "mustang\mustang(8).jpeg"  </img>
+	  </div>
+	  <div id = "mustang9" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang12" src = "mustang\mustang(12).jpeg"  </img>
+	  </div>
+		<div id = "mustang10" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang14" src = "mustang\mustang(14).jpeg"  </img>
+	  </div>
+	  <div id = "mustang11" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang9" src = "mustang\mustang(9).jpeg"  </img>
+	  </div>
+	  <div id = "mustang12" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang7" src = "mustang\mustang(7).jpeg"  </img>
+	  </div>
+	  <div id = "mustang13" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang13" src = "mustang\mustang(13).jpeg"  </img>
+	  </div>
+	  <div id = "mustang14" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang1" src = "mustang\mustang(1).jpeg"  </img>
+	  </div>
+	  <div id = "mustang15" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang11" src = "mustang\mustang(11).jpeg"  </img>
+	  </div>
+	  <div id = "mustang16" class="column" draggable="true" ondragstart ="drag2(event)" ondrop="drop2(event)" ondragover="allowDrop(event)">
+		<img id = "imustang4" src = "mustang\mustang(4).jpeg"  </img>
+	  </div>
+	</div>
+
+	<br>
+	<hr></hr>
+
+	<script src="picturePuzzle.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" content="HTML,COMP431,COMP531,JavaScript, picturepuzzle">
+	<meta name="author" content="Arun Manohar Manoharan">
+	<script src="picturePuzzle.js"></script>
+	<link rel = "stylesheet" href = "picturePuzzle.css"></link>
+	
+	  <title>Picture Puzzle Congrats!</title>
+
+</head>
+<body onload = "score()">
+	<hr></hr>
+	<h1>You have sucessfully completed all the levels!</h1>
+	<p id = "score" class = "score"></p>
+
+	<hr></hr>
+
+	<marquee  id = "credits" class = "credits" direction = "up">
+		Thank you for playing. 
+		<br></br>
+		<b><i>Credits</i></b>
+		<br></br>
+		Developer: Arun Manohar Manoharan
+		<br></br>
+	</marquee>
+
+	<hr></hr>
+	<div class="replay">
+		<button class = "button" type="button" value="Click me" onclick="reset1()"> Play Again </button>
+	</div>
+
+</body>
+</html>

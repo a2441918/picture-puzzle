@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" content="HTML,COMP431,COMP531,JavaScript, picturepuzzle">
+	<meta name="author" content="Arun Manohar Manoharan">
+	<script src="picturePuzzle.js"></script>
+	<link rel = "stylesheet" href = "picturePuzzle.css"></link>
+	<title>Picture Puzzle</title>
+</head>
+
+<body onload = "startTimer1()">
+	<hr></hr>
+	<h1>Picture Puzzle</h1>
+
+	<hr></hr>
+	<b>Time Remaining: </b><input type = "text" readonly id = "timeRem1" value="30"></input>
+
+	<button type="button" value="Click me" onclick="reset1()"> Reset </button>
+	<button type="button" value="Click me" onclick="hint1()"> Hint </button>
+	<button type="button" value="level1" onclick="goToLevel2()"> Go to Level 2 </button>
+	<hr></hr>
+	<div id="columns0" class = "columns0">
+		<div class = "column" id = "dog00"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog22" src = "dog\dog22.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog01"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog11" src = "dog\dog11.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog02"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog20" src = "dog\dog20.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog10"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog21" src = "dog\dog21.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog11"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog02" src = "dog\dog02.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog12"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog12" src = "dog\dog12.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog20"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog10" src = "dog\dog10.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog21"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog00" src = "dog\dog00.jpeg" </img>
+		</div>
+		<div class = "column" id = "dog22"  draggable="true" ondragstart ="drag1(event)" ondrop="drop1(event)" ondragover="allowDrop(event)"> 
+			<img id = "idog01" src = "dog\dog01.jpeg" </img>
+		</div>
+	</div>
+
+	<hr></hr>
+
+</body>
+</html>
